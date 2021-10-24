@@ -1,11 +1,20 @@
 # Zadanie Stos
 
+| Termin oddania | Punkty     |
+|----------------|:-----------|
+|  07.10.2021    |  10        |
+
+--- 
+Przekroczenie terminu o **n** zajęć wiąże się z karą:
+- punkty uzyskania za realizację zadania są dzielone przez **2<sup>n</sup>**.
+
+--- 
 ## Zadanie 1 (Red)
 W pliku ``StackTest.java`` wpisać brakujące testy dla opracji na stosie przedstawionych 
 w pliku ```Stack.java```. Wymagania:
 - ``push`` wkłada jeden element na stos
 - ``pop`` zdejmuje jeden element ze stosu i oddaje wartość tego elementu; co się ma dziać gdy ``pop`` próbuje 
-    zdjąc element z pustego stosu
+    zdjąć element z pustego stosu
 - ``peek`` podobnie jak ``pop`` oddaje wartość elementu na szczycie stosu ale go nie zdejmuje; 
     podobny problem z pustym stosem co w przypadku ``pop`` 
 
